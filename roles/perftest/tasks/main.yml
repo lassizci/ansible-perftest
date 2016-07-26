@@ -1,0 +1,15 @@
+---
+- include: inc1.yml
+  when: inc1
+
+- include: inc2.yml
+  when: inc2
+
+- include: inc3.yml
+  when: inc3
+
+- include: inc4.yml
+  when: inc4
+
+- include: inc5.yml
+  when: inc5
