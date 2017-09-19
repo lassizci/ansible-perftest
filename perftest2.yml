@@ -1,0 +1,8 @@
+---
+- name: perftest2
+  hosts: all
+  become: no
+  gather_facts: no
+  connection: local
+  roles:
+    - perftest2
