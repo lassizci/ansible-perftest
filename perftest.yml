@@ -1,6 +1,7 @@
 ---
 - name: perftest
   hosts: all
-  become: true
+  become: no
+  connection: local
   roles:
     - perftest
